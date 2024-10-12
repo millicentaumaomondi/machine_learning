@@ -37,7 +37,7 @@ with st.sidebar:
           'body_mass_g':body_mass_g,
           'sex':sex}
   input_df = pd.DataFrame(data,index[0])
-  input_penguins = pd.concat([input_df,X]axis=0)
+  input_penguins = pd.concat([input_df,X],axis=0)
 
   input_penguins
           
