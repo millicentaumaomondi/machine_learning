@@ -7,17 +7,24 @@ from sklearn.ensemble import RandomForestClassifier
 st.markdown(
     """
     <style>
+    body {
+        background-image: url('https://drive.google.com/file/d/134ZdZG806W2fDENYL2WxM9dL_1SawRq1/view?usp=sharing'); /* Replace with your direct image link */
+        background-size: cover; /* Cover the entire background */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        height: 100vh; /* Full height */
+        margin: 0; /* Remove default margin */
+        padding: 0; /* Remove default padding */
+    }
     .stApp {
-        background-image: url('https://drive.google.com/file/d/134ZdZG806W2fDENYL2WxM9dL_1SawRq1/view?usp=sharing');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        height: 100vh; /* Ensure it covers the full height */
+        background: rgba(255, 255, 255, 0.8); /* Optional: Add a background with some transparency to the app for readability */
+        min-height: 100vh; /* Ensure the app takes full height */
     }
     </style>
     """,
     unsafe_allow_html=True
 )
+
 
 st.title('Machine Learning App 💻')
 
