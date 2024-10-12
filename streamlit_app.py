@@ -8,10 +8,11 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-image: url('https://www.wildnatureimages.com/images/xl/130107-152-Antarctica.webp);
+        background-image: url('https://drive.google.com/file/d/134ZdZG806W2fDENYL2WxM9dL_1SawRq1/view?usp=sharing');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+        height: 100vh; /* Ensure it covers the full height */
     }
     </style>
     """,
