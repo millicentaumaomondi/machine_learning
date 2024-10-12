@@ -31,11 +31,11 @@ with st.sidebar:
   sex = st.selectbox("Sex",("male", "female"))
   #create a data frame for input features
   data = {'island',island,
-          'bill_length_mm',bill_length_mm,
-          'bill_depth_mm',bill_depth_mm,
-          'flipper_depth_mm',flipper_depth_mm,
-          'body_mass_g',body_mass_g,
-          'sex',sex}
+          'bill_length_mm':bill_length_mm,
+          'bill_depth_mm':bill_depth_mm,
+          'flipper_depth_mm':flipper_depth_mm,
+          'body_mass_g':body_mass_g,
+          'sex':sex}
   input_df = pd.DataFrame(data,index[0])
   input_penguins = pd.concat([input_df,X]axis=0)
 
