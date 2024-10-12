@@ -30,7 +30,7 @@ with st.sidebar:
   body_mass_g = st.slider("Body mass (mm)",2700.0,6300.0,4207.0)
   sex = st.selectbox("Sex",("male", "female"))
   #create a data frame for input features
-  data = {'island',island,
+  data = {'island':island,
           'bill_length_mm':bill_length_mm,
           'bill_depth_mm':bill_depth_mm,
           'flipper_depth_mm':flipper_depth_mm,
